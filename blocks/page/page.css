@@ -1,0 +1,30 @@
+.page {
+    max-width: 1280px;
+    min-width: 320px;
+    background-color: #2A2C2F;
+    margin: 0 auto;
+}
+
+@media all and (min-width:1280px) {
+    .page {
+        min-height: 6875px;
+    }
+}
+
+@media all and (min-width:1024px) and (max-width: 1279px) {
+    .page {
+        min-height: 6895px;
+    }
+}
+
+@media all and (min-width:768px) and (max-width: 1023px) {
+    .page {
+        min-height: 6855px;
+    }
+}
+
+@media all and (min-width:0) and (max-width: 767px) {
+    .page {
+        min-height: 10023px;
+    }
+}
