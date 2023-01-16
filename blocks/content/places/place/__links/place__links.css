@@ -1,0 +1,9 @@
+.place__links {
+    grid-area: url;
+    justify-self: start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 46px;
+    margin-bottom: 48px;
+}
