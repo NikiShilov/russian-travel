@@ -4,3 +4,66 @@
     margin-left: 148px;
     align-self: flex-start;
 }
+
+@media all and (min-width:1025px) and (max-width: 1279px) {
+    .intro {
+        height: 429px;
+        width: 690px;
+        margin-left: 48px;
+        align-self: flex-start;
+    }
+}
+@media all and (width:1024px) {
+    .intro {
+        height: 429px;
+        width: 690px;
+        margin-left: 148px;
+        align-self: flex-start;
+    }
+}
+
+@media all and (min-width:768px) and (max-width: 1023px) {
+    .intro {
+        height: 429px;
+        width: 720px;
+        margin-left: 24px;
+        align-self: flex-start;
+    }
+}
+
+@media all and (width:768px) {
+    .intro {
+        height: 429px;
+        width: 690px;
+        margin-left: 24px;
+        align-self: flex-start;
+    }
+}
+
+@media all and (min-width:321px) and (max-width: 767px) {
+    .intro {
+        height: 754px;
+        width: 288px;
+        margin-left: 16px;
+        align-self: flex-start;
+    }
+}
+
+@media all and (width:320px) {
+    .intro {
+        height: 754px;
+        width: 288px;
+        margin-left: 16px;
+        align-self: flex-start;
+    }
+}
+
+
+@media all and (min-width:0) and (max-width: 319px) {
+    .intro {
+        height: 754px;
+        width: 288px;
+        margin-left: 16px;
+        align-self: flex-start;
+    }
+}

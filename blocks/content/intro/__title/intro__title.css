@@ -8,3 +8,31 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media all and (min-width:321px) and (max-width: 767px) {
+    .intro__title {
+        height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+    }
+}
+
+@media all and (width:320px) {
+    .intro__title {
+        height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+    }
+}
+
+
+@media all and (min-width:0) and (max-width: 319px) {
+    .intro__title {
+        height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+    }
+}

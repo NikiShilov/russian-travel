@@ -7,4 +7,29 @@
     text-align: right;
     text-decoration-line: underline;
     color: #ffffff;
+    width: 30px;
+    height: 28px;
+    margin: 0;
+}
+
+@media all and (min-width:321px) and (max-width: 767px) {
+    .header__lang-link_lang_en {
+        width: 22px;
+        height: 20px;
+    }
+}
+
+@media all and (width:320px) {
+    .header__lang-link_lang_en {
+        width: 22px;
+        height: 20px;
+    }
+}
+
+
+@media all and (min-width:0) and (max-width: 319px) {
+    .header__lang-link_lang_en {
+        width: 22px;
+        height: 20px;
+    }
 }
