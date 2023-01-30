@@ -1,31 +1,17 @@
-@media all and (min-width:1280px) {
-    
-}
+@media all and (min-width:1024px) and (max-width: 1279px) {
+    . {
 
-@media all and (min-width:1025px) and (max-width: 1279px) {
-    
-}
-@media all and (width:1024px) {
-    
+    }
 }
 
 @media all and (min-width:768px) and (max-width: 1023px) {
-    
+    . {
+        
+    }
 }
 
-@media all and (width:768px) {
-    
-}
-
-@media all and (min-width:321px) and (max-width: 767px) {
-    
-}
-
-@media all and (width:320px) {
-    
-}
-
-
-@media all and (min-width:0) and (max-width: 319px) {
-    
+@media all and (min-width:0) and (max-width: 767px) {
+    . {
+        
+    }
 }

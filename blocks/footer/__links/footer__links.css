@@ -1,3 +1,11 @@
 .footer__links {
     height: 100%;
+    
+}
+
+@media all and (min-width:0) and (max-width: 767px) {
+    .footer__links {
+        display: grid;
+        gap: 32px;
+    }
 }

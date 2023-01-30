@@ -1,21 +1,9 @@
 .photo-grid__item {
     height: 213px;
-    width: 100%;
-}
-@media all and (min-width:1280px) {
-    .photo-grid__item {
-        width: 284px;
-        height: 213px;
-    }
+    width: 284px;
 }
 
-@media all and (min-width:1025px) and (max-width: 1279px) {
-    .photo-grid__item {
-        width: 284px;
-        height: 213px;
-    }
-}
-@media all and (width:1024px) {
+@media all and (min-width:1024px) and (max-width: 1279px) {
     .photo-grid__item {
         width: 300px;
         height: 225px;
@@ -29,29 +17,7 @@
     }
 }
 
-@media all and (width:768px) {
-    .photo-grid__item {
-        width: 352px;
-        height: 264px;
-    }
-}
-
-@media all and (min-width:321px) and (max-width: 767px) {
-    .photo-grid__item {
-        width: 288px;
-        height: 216px;
-    }
-}
-
-@media all and (width:320px) {
-    .photo-grid__item {
-        width: 288px;
-        height: 216px;
-    }
-}
-
-
-@media all and (min-width:0) and (max-width: 319px) {
+@media all and (min-width:0) and (max-width: 767px) {
     .photo-grid__item {
         width: 288px;
         height: 216px;

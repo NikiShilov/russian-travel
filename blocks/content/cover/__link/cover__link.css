@@ -1,6 +1,6 @@
 .cover__link {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-image: url(../../../../images/__background.png);
     background-size: cover;
     text-decoration: none;

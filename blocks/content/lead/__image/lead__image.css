@@ -2,17 +2,14 @@
     width: 984px;
     height: 615px;
     background-image: url(../../../../images/kalegin.jpg);
-    background-size:cover ;
+    background-size: cover;
 }
 
-@media all and (min-width:1025px) and (max-width: 1279px) {
-    .lead__image {
-        width: 928px;
-        height: 580px;
-    }
-}
 
-@media all and (width:1024px) {
+
+
+
+@media all and (min-width:1024px) and (max-width: 1279px) {
     .lead__image {
         width: 928px;
         height: 580px;
@@ -26,29 +23,7 @@
     }
 }
 
-@media all and (width:768px) {
-    .lead__image {
-        width: 768px;
-        height: 460px;
-    }
-}
-
-@media all and (min-width:321px) and (max-width: 767px) {
-    .lead__image {
-        width: 320px;
-        height: 200px;
-    }
-}
-
-@media all and (width:320px) {
-    .lead__image {
-        width: 320px;
-        height: 200px;
-    }
-}
-
-
-@media all and (min-width:0) and (max-width: 319px) {
+@media all and (min-width:0) and (max-width: 767px) {
     .lead__image {
         width: 320px;
         height: 200px;

@@ -1,5 +1,4 @@
 .page {
-    max-width: 1280px;
     min-width: 320px;
     background-color: #2A2C2F;
     margin: 0 auto;
@@ -25,6 +24,6 @@
 
 @media all and (min-width:0) and (max-width: 767px) {
     .page {
-        min-height: 10023px;
+        min-height: 10000px;
     }
 }

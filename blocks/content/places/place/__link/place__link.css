@@ -9,3 +9,15 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
+@media all and (min-width:768px) and (max-width: 1023px) {
+    .place__link{
+       width: 352px; 
+    }
+}
+
+@media all and (min-width:0) and (max-width: 767px) {
+    .place__link{
+        width: 288px; 
+     }
+}

@@ -1,6 +1,5 @@
 .place__paragraph {
     width: 484px;
-    height: 145px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -13,7 +12,6 @@
 
 .place__paragraph:first-of-type {
     width: 484px;
-    height: 145px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -22,4 +20,42 @@
     color: #FFFFFF;
     grid-area: text;
     margin: 0 0 26px 0;
+}
+
+@media all and (min-width:1024px) and (max-width: 1279px) {
+    .place__paragraph {
+        width: 456px;
+    }
+    .place__paragraph:first-of-type {
+        width: 456px;
+    }
+    
+}
+
+@media all and (min-width:768px) and (max-width: 1023px) {
+    .place__paragraph {
+        width: 352px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .place__paragraph:first-of-type {
+        width: 352px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media all and (min-width:0) and (max-width: 767px) {
+
+        .place__paragraph {
+            width: 288px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .place__paragraph:first-of-type {
+            width: 288px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    
 }

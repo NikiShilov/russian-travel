@@ -7,3 +7,9 @@
     height: 46px;
     margin-bottom: 48px;
 }
+
+@media all and (min-width:0) and (max-width: 767px) {
+    .place__links {
+        margin-bottom: 32px;
+    }
+}

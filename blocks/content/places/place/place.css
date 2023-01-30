@@ -8,3 +8,30 @@
     'image image text text';
     margin: 0 auto 80px;
 }
+
+@media all and (min-width:1024px) and (max-width: 1279px) {
+    .place {
+        width: 928px;
+        height: 640px;
+    }
+}
+@media all and (min-width:768px) and (max-width: 1023px) {
+    .place {
+        margin: 0 auto 73px;
+        width: 720px;
+        height: 581px;
+    }
+}
+
+@media all and (min-width:0) and (max-width: 767px) {
+    .place {
+        width: 320px;
+        height: 965px;
+        margin: 0 auto 50px;
+        grid-template-areas: 
+        'title'
+        'url'
+        'image'
+        'text';
+    }
+}

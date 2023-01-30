@@ -10,8 +10,13 @@
     margin: 40px auto 33px;
 }
 
-
-
+@media all and (min-width:0) and (max-width: 319px) {
+    .intro__text {
+        width: 288px;
+        height: 520px;
+        margin: 40px auto 34px;
+    }
+}
 
 @media all and (min-width:768px) and (max-width: 1023px) {
     .intro__text {
@@ -19,30 +24,7 @@
     }
 }
 
-@media all and (width:768px) {
-    .intro__text {
-        width: 720px;
-    }
-}
-
-@media all and (min-width:321px) and (max-width: 767px) {
-    .intro__text {
-        width: 288px;
-        height: 520px;
-        margin: 40px auto 34px;
-    }
-}
-
-@media all and (width:320px) {
-    .intro__text {
-        width: 288px;
-        height: 520px;
-        margin: 40px auto 34px;
-    }
-}
-
-
-@media all and (min-width:0) and (max-width: 319px) {
+@media all and (min-width:0) and (max-width: 767px) {
     .intro__text {
         width: 288px;
         height: 520px;

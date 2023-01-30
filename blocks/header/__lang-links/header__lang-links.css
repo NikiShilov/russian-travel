@@ -5,24 +5,11 @@
     flex-direction: row;
     margin: 18px 0 6px 0;
 }
-@media all and (min-width:321px) and (max-width: 767px) {
-    .header__lang-links{
-        width: 62;
-        margin: 14px 0 8px 0;
-    }
-}
-
-@media all and (width:320px) {
-    .header__lang-links{
-        width: 62;
-        margin: 14px 0 8px 0;
-    }
-}
 
 
-@media all and (min-width:0) and (max-width: 319px) {
-    .header__lang-links{
-        width: 62;
+@media all and (min-width:0) and (max-width: 767px) {
+    .header__lang-links {
+        width: 62px;
         margin: 14px 0 8px 0;
     }
 }
