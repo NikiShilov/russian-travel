@@ -1,31 +1,54 @@
 .cover {
     width: 1184px;
-    height: 740px;
+    min-height: 740px;
     margin: 12px auto 92px;
-    background-image: url(../../../images/__background.png);
     background-size: cover;
+    background-image: url(../../../images/__overlay.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 0;
+    position: relative;
 }
 
-@media all and (min-width:1024px) and (max-width: 1279px) {
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2a2c2f;
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.cover:hover:before {
+    opacity: 0.8;
+}
+
+
+@media all and (max-width:1024px) {
     .cover {
-        width: 1024px;
-        height: 640px;
+        max-width: 1024px;
+        min-height: 640px;
         margin: 12px auto 92px;
     }
 }
 
-@media all and (min-width:768px) and (max-width: 1023px) {
+@media all and (max-width:768px) {
     .cover {
-        width: 768px;
-        height: 480px;
+        max-width: 768px;
+        min-height: 480px;
         margin: 10px auto 88px;
     }
 }
 
-@media all and (min-width:0) and (max-width: 767px) {
+@media all and (max-width: 320px) {
     .cover {
-        width: 320px;
-        height: 200px;
+        min-width: 320px;
+        min-height: 200px;
         margin: 16px auto 64px;
     }
 }

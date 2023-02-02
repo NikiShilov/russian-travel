@@ -1,5 +1,5 @@
 .intro {
-    height: 429px;
+    min-height: 429px;
     align-self: flex-start;
     max-width: 1280px;
     margin-left: 148px;
@@ -7,30 +7,30 @@
 
 
 
-@media all and (min-width:1024px) and (max-width: 1279px) {
+@media all and (max-width:1024px) {
     .intro {
-        height: 429px;
-        width: 690px;
+        min-height: 429px;
+        max-width: 690px;
         align-self: flex-start;
         margin-left: 48px;
     }
 }
 
-@media all and (min-width:768px) and (max-width: 1023px) {
+@media all and (max-width:768px) {
 
     .intro {
-        height: 429px;
-        width: 720px;
+        min-height: 429px;
+        max-width: 720px;
         align-self: flex-start;
         margin-left: 24px;
     }
 
 }
 
-@media all and (min-width:0) and (max-width: 767px) {
+@media all and (max-width: 320px) {
     .intro {
-        height: 754px;
-        width: 288px;
+        min-height: 754px;
+        max-width: 288px;
         align-self: flex-start;
         margin-left: 16px;
     }

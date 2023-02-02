@@ -1,21 +1,9 @@
 .cover__link {
-    width: 100vw;
-    height: 100%;
-    background-image: url(../../../../images/__background.png);
+    max-width: 1184px;
+    max-height: 740px;
     background-size: cover;
     text-decoration: none;
-}
-
-.cover__link::before {
-    content: "";
+    z-index: 0;
     position: relative;
-    background-color: #2A2C2F;
-    opacity: .3;
-    transition: opacity 1s ease;
-    width: 100%;
-    height: 100%;
 }
 
-.cover__link:hover::before {
-    opacity: .8;
-}

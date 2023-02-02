@@ -7,16 +7,16 @@
     text-align: right;
     text-decoration-line: underline;
     color: #ffffff;
-    width: 30px;
-    height: 28px;
-    margin: 0;
+    max-width: 30px;
+    min-width: 28px;
+    margin: 0 18px 0 0;
 }
 
 
-@media all and (min-width:0) and (max-width: 767px) {
+@media all and (max-width: 320px) {
     .header__lang-link_lang_ru {
-        width: 22px;
-        height: 20px;
+        max-width: 22px;
+        min-height: 20px;
         font-size: 18px;
         line-height: 20px;
     }

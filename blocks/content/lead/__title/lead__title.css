@@ -1,6 +1,6 @@
 .lead__title {
-    width: 720px;
-    height: 200px;
+    max-width: 720px;
+    min-height: 200px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -15,10 +15,10 @@
 
 
 
-@media all and (min-width:0) and (max-width: 767px) {
+@media all and (max-width: 320px) {
     .lead__title {
-        width: 288px;
-        height: 88px;
+        max-width: 288px;
+        min-height: 88px;
         font-size: 40px;
         line-height: 44px;
     }

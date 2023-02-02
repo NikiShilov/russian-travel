@@ -1,6 +1,6 @@
 .place__link {
-    width: 456px;
-    height: 22px;
+    max-width: 456px;
+    min-height: 22px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -10,14 +10,14 @@
     color: #FFFFFF;
 }
 
-@media all and (min-width:768px) and (max-width: 1023px) {
+@media all and (max-width:768px) {
     .place__link{
-       width: 352px; 
+       max-width: 352px; 
     }
 }
 
-@media all and (min-width:0) and (max-width: 767px) {
+@media all and (max-width: 320px) {
     .place__link{
-        width: 288px; 
+        max-width: 288px; 
      }
 }
