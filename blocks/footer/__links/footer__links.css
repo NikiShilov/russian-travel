@@ -1,6 +1,8 @@
 .footer__links {
     height: 100%;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 @media all and (max-width: 320px) {

@@ -1,0 +1,8 @@
+.cover__link {
+    max-width: 1184px;
+    height: 100%;
+    background-size: cover;
+    text-decoration: none;
+    z-index: 0;
+    position: relative;
+}

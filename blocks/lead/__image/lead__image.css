@@ -1,0 +1,27 @@
+.lead__image {
+    max-width: 984px;
+    background-size: cover;
+    object-fit: fill ;
+}
+
+
+
+
+
+@media all and (max-width:1024px)  {
+    .lead__image {
+        max-width: 928px;
+    }
+}
+
+@media all and (max-width:768px)  {
+    .lead__image {
+        max-width: 768px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .lead__image {
+        max-width: 320px;
+    }
+}

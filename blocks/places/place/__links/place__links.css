@@ -1,0 +1,14 @@
+.place__links {
+    grid-area: url;
+    justify-self: start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+@media all and (max-width: 320px) {
+    .place__links {
+        margin-bottom: 32px;
+    }
+}

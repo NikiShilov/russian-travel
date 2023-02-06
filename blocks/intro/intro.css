@@ -1,0 +1,33 @@
+.intro {
+    align-self: flex-start;
+    max-width: 1280px;
+    margin-left: 148px;
+}
+
+
+
+@media all and (max-width:1024px) {
+    .intro {
+        max-width: 690px;
+        align-self: flex-start;
+        margin-left: 48px;
+    }
+}
+
+@media all and (max-width:768px) {
+
+    .intro {
+        max-width: 720px;
+        align-self: flex-start;
+        margin-left: 24px;
+    }
+
+}
+
+@media all and (max-width: 320px) {
+    .intro {
+        max-width: 288px;
+        align-self: flex-start;
+        margin-left: 16px;
+    }
+}
