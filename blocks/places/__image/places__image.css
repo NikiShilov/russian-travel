@@ -1,4 +1,4 @@
-.place__image {
+.places__image {
     max-width: 460px;
     min-height: 460px;
     grid-area: image;
@@ -6,7 +6,7 @@
 }
 
 @media all and (max-width:1024px) {
-    .place__image {
+    .places__image {
         max-width: 440px;
         min-height: 440px;
         margin-right: 32px;
@@ -14,7 +14,7 @@
 }
 
 @media all and (max-width:768px)  {
-    .place__image {
+    .places__image {
         max-width: 340px;
         min-height: 340px;
         margin-right: 28px;
@@ -22,7 +22,7 @@
 }
 
 @media all and (max-width:320px) {
-    .place__image {
+    .places__image {
         max-width: 320px;
         min-height: 320px;
         margin-right: 0;

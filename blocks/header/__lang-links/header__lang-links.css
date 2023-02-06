@@ -1,5 +1,4 @@
 .header__lang-links {
-    max-width: 77px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -9,7 +8,6 @@
 
 @media all and  (max-width: 320px) {
     .header__lang-links {
-        max-width: 62px;
         margin: 14px 0 8px 0;
     }
 }

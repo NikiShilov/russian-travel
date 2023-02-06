@@ -23,7 +23,6 @@
     .footer {
         max-width: 186px;
         flex-direction: column;
-        justify-content: space-between;
         margin: 0;
     }
 }

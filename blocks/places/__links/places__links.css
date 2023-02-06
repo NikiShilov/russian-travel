@@ -1,4 +1,4 @@
-.place__links {
+.places__links {
     grid-area: url;
     justify-self: start;
     align-self: flex-end;
@@ -8,7 +8,7 @@
 }
 
 @media all and (max-width: 320px) {
-    .place__links {
+    .places__links {
         margin-bottom: 32px;
     }
 }
