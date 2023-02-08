@@ -2,7 +2,7 @@
     width: 1184px;
     min-height: 740px;
     margin: 12px auto 92px;
-    background-size:contain;
+    background-size:cover;
     background-image: url(../../images/__background.png);
     padding-bottom: 0;
     position: relative;
@@ -27,24 +27,24 @@
 }
 
 
-@media all and (max-width:1024px) {
+@media all and (max-width:1279px) {
     .cover {
-        max-width: 1024px;
+        max-width: 1000px;
         min-height: 640px;
     }
 }
 
-@media all and (max-width:768px) {
+@media all and (max-width:1023px) {
     .cover {
-        max-width: 768px;
+        max-width: 744px;
         min-height: 480px;
         margin: 10px auto 88px;
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .cover {
-        max-width: 320px;
+        max-width: 300px;
         min-height: 200px;
         margin: 16px auto 64px;
     }

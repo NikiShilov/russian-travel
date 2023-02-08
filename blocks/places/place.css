@@ -8,19 +8,19 @@
     margin: 0 auto 80px;
 }
 
-@media all and (max-width:1024px)  {
+@media all and (max-width:1279px)  {
     .place {
         max-width: 928px;
     }
 }
-@media all and (max-width:768px) {
+@media all and (max-width:1023px) {
     .place {
         margin: 0 auto 73px;
         max-width: 720px;
     }
 }
 
-@media all and (max-width:320px) {
+@media all and (max-width:767px) {
     .place {
         max-width: 320px;
         margin: 0 auto 50px;

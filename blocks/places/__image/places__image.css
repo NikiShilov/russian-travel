@@ -5,7 +5,7 @@
     margin-right: 40px;
 }
 
-@media all and (max-width:1024px) {
+@media all and (max-width:1279px) {
     .places__image {
         max-width: 440px;
         min-height: 440px;
@@ -13,7 +13,7 @@
     }
 }
 
-@media all and (max-width:768px)  {
+@media all and (max-width:1023px)  {
     .places__image {
         max-width: 340px;
         min-height: 340px;
@@ -21,10 +21,10 @@
     }
 }
 
-@media all and (max-width:320px) {
+@media all and (max-width:767px) {
     .places__image {
-        max-width: 320px;
-        min-height: 320px;
+        max-width: 300px;
+        min-height: 300px;
         margin-right: 0;
     }
 }
