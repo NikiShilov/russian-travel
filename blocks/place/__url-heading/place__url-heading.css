@@ -1,4 +1,4 @@
-.places__url-heading {
+.place__url-heading {
     max-width: 456px;
     font-family: 'Inter', serif;
     font-style: normal;
@@ -14,13 +14,13 @@
 
 
 @media all and (max-width:1023px) {
-    .places__url-heading {
+    .place__url-heading {
         max-width: 352px;
     }
 }
 
 @media all and (max-width:767px) {
-    .places__url-heading {
+    .place__url-heading {
         max-width: 288px;
     }
 }

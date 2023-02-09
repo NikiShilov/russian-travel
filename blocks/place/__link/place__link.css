@@ -1,4 +1,4 @@
-.places__link {
+.place__link {
     max-width: 456px;
     font-family: 'Inter', serif;
     font-style: normal;
@@ -10,13 +10,13 @@
 }
 
 @media all and (max-width:1023px) {
-    .places__link{
+    .place__link{
        max-width: 352px; 
     }
 }
 
 @media all and (max-width: 767px) {
-    .places__link{
+    .place__link{
         max-width: 288px; 
      }
 }

@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
     max-width: 484px;
     font-family: 'Inter', serif;
     font-style: normal;
@@ -10,13 +10,13 @@
     margin: 0;
 }
 
-.places__paragraph:first-of-type {
+.place__paragraph:first-of-type {
 
     margin: 0 0 26px 0;
 }
 
 @media all and (max-width:1279px) {
-    .places__paragraph {
+    .place__paragraph {
         max-width: 456px;
     }
 
@@ -25,7 +25,7 @@
 }
 
 @media all and (max-width:1023px) {
-    .places__paragraph {
+    .place__paragraph {
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;
@@ -36,10 +36,8 @@
 
 @media all and (max-width: 767px) {
 
-    .places__paragraph {
+    .place__paragraph {
         max-width: 288px;
-        font-size: 16px;
-        line-height: 26px;
     }
 
 
