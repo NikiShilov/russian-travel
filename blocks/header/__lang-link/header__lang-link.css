@@ -6,7 +6,6 @@
     line-height: 28px;
     text-align: right;
     color: #ffffff;
-    max-width: 30px;
     min-width: 28px;
     margin: 0 18px 0 0;
 }
@@ -18,7 +17,6 @@
 
 @media all and (max-width: 767px) {
     .header__lang-link {
-        max-width: 22px;
         font-size: 18px;
         line-height: 20px;
     }

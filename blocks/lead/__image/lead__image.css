@@ -1,7 +1,5 @@
 .lead__image {
     max-width: 984px;
-    background-size: cover;
-    object-fit: fill;
 }
 
 
@@ -16,12 +14,12 @@
 
 @media all and (max-width:1023px) {
     .lead__image {
-        max-width: 744px;
+        max-width: 768px;
     }
 }
 
 @media all and (max-width: 767px) {
     .lead__image {
-        max-width: 300px;
+        max-width: 320px;
     }
 }
