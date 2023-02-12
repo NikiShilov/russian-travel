@@ -37,7 +37,6 @@
 
 @media all and (max-width:1023px) {
     .cover {
-        max-width: 100%;
         min-height: 480px;
         margin: 10px 0 88px 0;
     }
@@ -45,7 +44,6 @@
 
 @media all and (max-width: 767px) {
     .cover {
-        max-width: 100%;
         min-height: 200px;
         margin: 16px 0 64px 0;
         background-size: cover;
